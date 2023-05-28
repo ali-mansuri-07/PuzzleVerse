@@ -1,5 +1,7 @@
 # PuzzleVerse
 <h1 align="center"> PuzzleVerse </h1> <br>
+<h2 align="center"> Visit App </h2> <br>
+ https://puzzle-verse.netlify.app/
 
 <h2 align="center">Check Your Soft Skills!! </h2>
 
