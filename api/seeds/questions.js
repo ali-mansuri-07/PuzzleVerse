@@ -1,0 +1,72 @@
+module.exports = [
+    {
+        "sno": 1,
+        "title": "A Wolf, a Goat, and a Cabbage",
+        "question": "A man finds himself on a riverbank with a wolf, a goat, and a head of cabbage. He needs to transport all three to the other side of the river in his boat. However, the boat has room for only the man himself and one other item (either the wolf, the goat, or the cabbage). In his absence, the wolf would eat the goat, and the goat would eat the cabbage. Show how the man can get all these “passengers” to the other side.",
+        "hint": "The puzzle can be solved by using the state-space graph",
+        "answer": "7"
+    },
+    {
+        "sno": 2,
+        "title": " Ferrying Soldiers",
+        "question": "A detachment of 25 soldiers must cross a wide and deep river with no bridge in sight. They notice two 12-year-old boys playing in a rowboat by the shore. The boat is so tiny, however, that it can only hold two boys or one soldier. How can the soldiers get across the river and leave the boys in joint possession of the boat? How many times does the boat pass from shore to shore in your algorithm?",
+        "hint": "Use decrease and conquer strategy",
+        "answer": "100"
+    },
+    {
+        "sno": 3,
+        "title": "Predicting a Finger Count",
+        "question": "A little girl counts from 1 to 1000 using the fingers of her left hand as follows. She starts by calling her thumb 1, the first finger 2, middle finger 3, ring finger 4, and little finger 5. Then she reverses direction, calling the ring finger 6, middle finger 7, the first finger 8, and her thumb 9, after which she calls her first finger 10, and so on. If she continues to count in this manner, on which finger will she stop?",
+        "hint": "It is easy to see that the counting falls on the same finger every eighth number called. Therefore to answer the question, all one needs is to find the remainderof the division of 1000 by 8",
+        "answer": "1"
+    },
+    {
+        "sno": 4,
+        "title": "Bridge Crossing at Night",
+        "question": "Four people need to cross a rickety footbridge; they all begin on the same side. It is dark, and they have one flashlight. A maximum of two people can cross the bridge at one time. Any party that crosses, either one or two people, must have the flashlight with them. The flashlight must be walked back and forth; it cannot be thrown, for example. Person 1 takes 1 minute to cross the bridge, person 2 takes 2 minutes, person 3 takes 5 minutes,and person 4 takes 10 minutes. A pair must walk together at the rate of the slower person’s pace. For example, if person 1 and person 4 walk together, it will take them 10 minutes to get to the other side. If person 4 returns the flashlight, a total of 20 minutes have passed. Can they cross the bridge in 17 minutes?",
+        "hint": "It is obvious (and can be formally proved) that in an optimal solution two persons have to cross the bridge together and one person has to return the flashlight, if not, all the people are already on the other side.",
+        "answer": "17"
+    },
+    {
+        "sno": 5,
+        "title": "Jigsaw Puzzle Assembly",
+        "question": "A jigsaw puzzle contains 500 pieces. A “section” of the puzzle is a set of one or more pieces that have been connected to each other. A “move” consists",
+        "hint": "Dimak lagao",
+        "answer": "499"
+    },
+    {
+        "sno": 6,
+        "title": "A Fake Among Eight Coins",
+        "question": "There are eight identical-looking coins; one of these coins is counterfeit and is known to be lighter than the genuine coins. What is the minimum number of weighings needed to identify the fake coin with a two-pan balance scale without weights? ",
+        "hint": "e the problem cannot be solved in one weighing",
+        "answer": "2"
+    },
+    {
+        "sno": 7,
+        "title": "Page Numbering",
+        "question": "Pages of a book are numbered sequentially starting with 1. If the total number of decimal digits used is equal to 1578, how many pages are there in the book?",
+        "hint": "To answer the puzzle’s question, we need to solve the equation 189 + 3(n − 99) = 1578.",
+        "answer": "562"
+    },
+    {
+        "sno": 8,
+        "title": "Find the Rank",
+        "question": "If we generate a list of all “words” made of letters G, I, N, R, T, and U in lexicographic order starting with GINRTU and ending with UTRNIG, what position in the list will be occupied by TURING? (",
+        "hint": "The puzzle is an instance of a well-known problem called permutation ranking",
+        "answer": "598"
+    },
+    {
+        "sno": 9,
+        "title": "Cutting a Stick",
+        "question": "A stick 100 units long needs to be cut into 100 unit pieces. What is the minimum number of cuts required if you are allowed to cut several stick pieces at the same time? Also outline an algorithm that performs this task with the minimum number of cuts for a stick of n units long.",
+        "hint": "Since cutting several pieces of a given stick at the same time is allowed, we need to concern ourselves only with finding a cutting algorithm that reduces the size of the longest piece present to size 1.",
+        "answer": "7"
+    },
+    {
+        "sno": 10,
+        "title": " Lighter or Heavier?",
+        "question": "You have n > 2 identical-looking coins and a two-pan balance scale with no weights. One of the coins is a fake, but you do not know whether it is lighter or heavier than the genuine coins, which all weigh the same. Design an algorithm to determine in the minimum number of weighings whether the fake coin is lighter or heavier than the others",
+        "hint": "Start by taking aside one coin if n is odd and two coins if n is even. After that,divide the remaining even number of coins into two equal-size groups and put them on the opposite pans of the scale",
+        "answer": "2"
+    }
+]
